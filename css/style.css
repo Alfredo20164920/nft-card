@@ -8,9 +8,11 @@ html {
     --cyan: hsl(178, 100%, 50%);
 
     /* neutral */
-    --very-dark-blue_main-BG: hsl(217, 54%, 11%);
-    --very-dark-blue_card-BG: hsl(216, 50%, 16%);
-    --very-dark-blue_line: hsl(215, 32%, 27%);
+    --very-dark-blue_main-BG: #0d1a2d;
+    --very-dark-blue_BG: #0C192C;
+    --very-dark-blue_shadow: #0c1729;
+    --very-dark-blue_card-BG: #15273f;
+    --very-dark-blue_line: #2f4159;
     --white: hsl(0, 0%, 100%);
 }
 
@@ -23,19 +25,4 @@ html {
 
 body {
     background-color: var(--very-dark-blue_main-BG);
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 1.1rem; 
-    text-align: center;
-    color: var(--very-dark-blue_line);
-}
-
-footer a { 
-    color: var(--very-dark-blue_line);
-    text-decoration: underline;
 }
