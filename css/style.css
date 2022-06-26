@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    /* Primary */
+    --soft-blue: #hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* neutral */
+    --very-dark-blue_main-BG: hsl(217, 54%, 11%);
+    --very-dark-blue_card-BG: hsl(216, 50%, 16%);
+    --very-dark-blue_line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+}
